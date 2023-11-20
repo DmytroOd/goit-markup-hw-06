@@ -1,0 +1,113 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .menu {
+        display: flex;
+
+    }
+    .page-contacts {
+        display: block;
+    }
+    .menu-close-btn {
+        display: none;
+    }
+    .logotype {
+        margin-right: 120px;
+    }
+    .contact {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+      }
+      .contact-link {
+        color: var(--SLATE, #434455);
+        /* Body */
+        font-size: 12px;
+      
+        line-height: 1.17;
+        /* 150% */
+        letter-spacing: 0.32px;
+        transition: color var(--timing-function);
+      }
+      .contact-link:hover,
+      .contact-link:focus {
+        color: #404bbf;
+      }
+      .hero-section {
+        padding: 112px 0;
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-tab-1x.jpg);
+      }
+      .main-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        max-width: 496px;
+
+      }
+      .advantage-item {
+        width: calc((100% - 24px) / 2);
+      }
+      .list-advantages {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+      }
+      .advantages-title {
+        text-align: left;
+      }
+      .list-team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+      }
+      .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    gap: 72px 24px;
+    padding-left: 108px;
+    align-items: baseline;
+      }
+      .logo-footer {
+        text-align: left;
+      }
+      .soc-title {
+        text-align: left;
+      }
+      .footer-form-title {
+        text-align: left;
+      }
+      .footer-form {
+        flex-direction: row;
+
+      }
+      .modal {
+        width: 408px;
+        padding: 72px 24px 24px;
+      }
+      .list-portfolio {
+        
+       flex-direction: row;
+
+       flex-wrap: wrap;
+       gap: 72px 24px;
+       align-items: center;
+      
+      }
+      .item-portfolio {
+        width: calc((100% - 24px) / 2);
+      }
+      .mobile-menu {
+        display: none;
+      }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+ screen and (min-resolution: 192dpi) and (min-width: 768px),
+ screen and (min-resolution: 2dppx) and (min-width: 768px) {
+ .hero-section {
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   url(../images/hero-tab-2x.jpg);
+ }
+}
